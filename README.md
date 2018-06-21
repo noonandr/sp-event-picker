@@ -30,7 +30,7 @@ $ npm run serve
 
 > SP-002 setup vue to base setup
 
-> SP-003 Base component for event picker
+> SP-003 Component for event picker
 
 > SP-004 Component for event type dropdown
 
