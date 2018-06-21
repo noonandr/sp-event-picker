@@ -1,16 +1,20 @@
 <template>
   <div class="sp-event-picker">
-    Pick me
+    <EventDropdown/>
   </div>
 </template>
 
 <script>
+
+import EventDropdown from '@/components/EventDropdown.vue'
+
 export default {
   name: 'EventPicker',
-  props: {
-    msg: String
+  components: {
+    EventDropdown
   }
 }
+
 </script>
 
 <style scoped lang="scss">
